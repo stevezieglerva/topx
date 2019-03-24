@@ -7,9 +7,7 @@ from TimerCollection import *
 timer = TimerCollection()
 
 brown_text_words = brown.words()
-print("Word count: {}".format(len(brown_text_words)))
-print(brown_text_words[1])
-print(brown_text_words[2])
+print("NLTK Brown corpus word count: {}".format(len(brown_text_words)))
 
 timer.start_timer("Counter")
 counter = Counter(brown_text_words)
