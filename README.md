@@ -1,6 +1,8 @@
 # topx
 Python code to return top N occurences of a string in a dictionary. Uses a heap to be faster than Counter in some cases.
 
+Based on the analyis from [Simple Counters in Python (with Benchmarks)](http://evanmuehlhausen.com/simple-counters-in-python-with-benchmarks/) that showed that Counters can be slower than pure dictionary objects.
+
 
 ## Installation
 ```
