@@ -12,16 +12,16 @@ pip install -r requirements.txt
 ## Usage
 ```
 >>> from TopX import *
->>> top_three_values = TopX(2)
->>> top_three_values.add((100, "hello"))
->>> top_three_values.add((50, "goodbye"))
->>> top_three_values.add((90, "world"))
->>> top_three_values.add((75, "appler"))
->>> print(top_three_values.values)
+>>> top_two_values = TopX(2)
+>>> top_two_values.add((100, "hello"))
+>>> top_two_values.add((50, "goodbye"))
+>>> top_two_values.add((90, "world"))
+>>> top_two_values.add((75, "appler"))
+>>> print(top_two_values.values)
 [(100, 'hello'), (90, 'world')]
 ```
 
-print(top_three_values.values)
+print(top_two_values.values)
 
 ## Performance tests 
 ```
